@@ -3,17 +3,40 @@
   <head>
     <meta charset="UTF-8">
     <title>Hello World!</title>
+    <link rel="stylesheet" href="./css/bootstrap.min.css">
+    <link rel="stylesheet" href="./css/style.css">
+    <script type="text/javascript">
+      window.nodeRequire = require;
+      delete window.require;
+      delete window.exports;
+      delete window.module;
+    </script>
   </head>
   <body>
-    <h1>Hello World!</h1>
-    <!-- All of the Node.js APIs are available in this renderer process. -->
-    We are using node <script>document.write(process.versions.node)</script>,
-    Chromium <script>document.write(process.versions.chrome)</script>,
-    and Electron <script>document.write(process.versions.electron)</script>.
+    <div id="toolbar">
+      <p>TA Help Queue</p>
+      <span id="toolbar-buttons">
+        <a href="#" id="toolbar-button-minimize"><span class="glyphicon glyphicon-chevron-down"></span></a>
+        <a href="#" id="toolbar-button-maximize"><span class="glyphicon glyphicon-chevron-up"></span></a>
+        <a href="#" id="toolbar-button-close"><span class="glyphicon glyphicon-remove"></span></a>
+      </span>
+    </div>
+    <div class="col-md-12">
+      <h1>Hello World!</h1>
+      <div class="alert alert-success">
+        <p>This is a test.</p>
+        <p>
+          <a href="#" id="openDevTools" class="alert-link">This is a link.</a>
+        </p>
+      </div>
+      <!-- All of the Node.js APIs are available in this renderer process. -->
+      We are using node <script>document.write(process.versions.node)</script>,
+      Chromium <script>document.write(process.versions.chrome)</script>,
+      and Electron <script>document.write(process.versions.electron)</script>.
+    </div>
   </body>
 
-  <script>
-    // You can also require other files to run in this process
-    require('./renderer.js')
-  </script>
+  <script type="text/javascript" src="./js/jquery-3.1.1.min.js"></script>
+  <script type="text/javascript" src="./js/bootstrap.min.js"></script>
+  <script type="text/javascript" src="./js/scripts.js"></script>
 </html>
