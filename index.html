@@ -14,32 +14,27 @@
   </head>
   <body>
     <div id="toolbar">
-      <p>TA Help Queue</p>
+      <p>TA Help Queue Demo</p>
       <span id="toolbar-buttons">
+        <a href="#" id="toolbar-button-refresh"><span class="glyphicon glyphicon-refresh"></span></a>
         <a href="#" id="toolbar-button-minimize"><span class="glyphicon glyphicon-chevron-down"></span></a>
         <a href="#" id="toolbar-button-maximize"><span class="glyphicon glyphicon-chevron-up"></span></a>
         <a href="#" id="toolbar-button-close"><span class="glyphicon glyphicon-remove"></span></a>
       </span>
     </div>
-    <div class="col-md-12">
-      <h1>Hello World!</h1>
-      <div class="alert alert-success">
-        <p>This is a test.</p>
-        <p>
-          <a href="#" id="getData" class="alert-link">Try getting status.</a>
-        </p>
-        <p>
-          <a href="#" id="login" class="alert-link">Try logging in.</a>
-        </p>
+    <div id="contentPadder">
+      <div class="col-md-12" id="mainContent">
+        <h1>Initializing . . . </h1>
+        <!-- All of the Node.js APIs are available in this renderer process. -->
+        We are using node <script>document.write(process.versions.node)</script>,
+        Chromium <script>document.write(process.versions.chrome)</script>,
+        and Electron <script>document.write(process.versions.electron)</script>.
       </div>
-      <!-- All of the Node.js APIs are available in this renderer process. -->
-      We are using node <script>document.write(process.versions.node)</script>,
-      Chromium <script>document.write(process.versions.chrome)</script>,
-      and Electron <script>document.write(process.versions.electron)</script>.
     </div>
   </body>
 
   <script type="text/javascript" src="./js/jquery-3.1.1.min.js"></script>
   <script type="text/javascript" src="./js/bootstrap.min.js"></script>
-  <script type="text/javascript" src="./js/scripts.js"></script>
+  <script type="text/javascript" src="./js/ui.js"></script>
+  <script type="text/javascript" src="./js/logic.js"></script>
 </html>
