@@ -1,5 +1,12 @@
-$(document).ready(function(){
+var fileData = nodeRequire('./data.json');
+var data;
+var refreshUiInterval;
+var refreshDataTimeout;
 
+//DEBUG
+//data = fileData;
+
+$(document).ready(function(){
   var login = function(ev, callback){
     if(ev)
       ev.preventDefault();
@@ -25,10 +32,14 @@ $(document).ready(function(){
     uiLoading();
     if(ev)
       ev.preventDefault();
+    if(refreshUiInterval)
+      clearInterval(refreshUiInterval);
+    if(refreshDataTimeout)
+      clearTimeout(refreshDataTimeout);
     $.ajax('https://students.cs.byu.edu/~cs236ta/helpqueue/getStatus.php?id=egm8',{
-      success:function(data){
+      success:function(result){
         //Check for logged-out status
-        if(JSON.parse(data).status == 'loggedOut'){
+        if(JSON.parse(result).status == 'loggedOut'){
           $('#toolbar-button-refresh').on('animationiteration', function(){
             $('#toolbar-button-refresh').removeClass('spin');
           })
@@ -36,11 +47,16 @@ $(document).ready(function(){
         }
 
         //Success!
+        data = JSON.parse(result);
+        uiData(data);
+
+        refreshUiInterval = setInterval(function(){
+          uiData(data);
+        },500)
         $('#toolbar-button-refresh').on('animationiteration', function(){
           $('#toolbar-button-refresh').removeClass('spin');
         })
-        uiData(JSON.parse(data));
-
+        refreshDataTimeout = setTimeout(refreshData, 3000);
       }
     })
     return false;

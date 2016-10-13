@@ -4,11 +4,17 @@ table.table
     th Name
     th NetID
     th Question
+    th Wait Time
     th Time With TA
   each student in list
-    -var start = moment().tz(startedGettingHelpTime, 'UTC')
+    - var start = moment.tz(student.enqueueTime, "x", "America/Denver");
+    - var helped = moment.tz(student.startedGettingHelpTime, "x", "America/Denver");
+    - var current = moment.tz(Date.now(), "x", "America/Denver");
+    - var waitTime = moment.duration(helped.diff(start))
+    - var taTime = moment.duration(current.diff(helped))
     tr
       td= student.name
       td= student.netId
       td= student.question
-      td #{time.getMinutes()}:#{time.getSeconds()}
+      td #{waitTime.hours() * 60 + waitTime.minutes()}:#{waitTime.seconds()}
+      td #{taTime.hours() * 60 + taTime.minutes()}:#{taTime.seconds()}
