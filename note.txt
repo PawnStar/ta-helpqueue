@@ -1,0 +1,32 @@
+In order to enter the queue you need to send a post to /helpqueue/queueUp.php with post data of:
+username: netId
+question: your question
+passOff: true/false
+
+This is sent as x-www-form-urlencoded, the response is a json string similar to the other status objects
+
+Basically, use:
+  $.ajax({
+    url:'https://students.cs.byu.edu/~cs236ta/helpqueue/queueUp.php',
+    type:'post',
+    dataType:'json',
+    data:{
+      username:'netID',   //Doesn't work if this is not your netID
+      question:'',        //Haven't done much experimentation here.  Possible XSS vulnerability?
+      passOff:false       //non-boolean values don't work
+    }
+  })
+
+
+If you call removeFromQueue.php on a user that is not you, it adds them to the students being helped list
+  under your net id (as in they are being helped by you)
+
+If you call removeFromQueue again, it removes them.
+
+=====
+
+If you don't want to have to traverse the list looking for yourself, you can also query getStatus.php with
+your own netID.  If the returned object has non null enqueueTime, you're in the queue.  Also if you're not
+in the queue the spot property will be -1.  0 is in the queue and currently being helped.
+
+A good way to test if you are in the queue or not is to query getStatus.php with your own netID
