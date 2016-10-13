@@ -1,0 +1,1603 @@
+{
+  "status": "success",
+  "list": [
+    {
+      "netId": "colese2",
+      "name": "Cole Erickson",
+      "spot": 0,
+      "enqueueTime": "1476307848000",
+      "helpScore": 2,
+      "question": "Ignore me please - Just trying to reverse engineer the help queue",
+      "passOff": "false",
+      "startedGettingHelpTime": "1476307968000",
+      "beingHelpedBy": "gwilhelm"
+    },{
+      "netId": "colese2",
+      "name": "Cole Erickson",
+      "spot": 1,
+      "enqueueTime": "1476308083000",
+      "helpScore": 3,
+      "question": "Thank you for your patience!",
+      "passOff": "false",
+      "startedGettingHelpTime": null,
+      "beingHelpedBy": null
+    }
+  ],
+  "stats": {
+    "tas": [
+      {
+        "netId": "jpd0057",
+        "name": "Jack Demke",
+        "helpCounter": 108,
+        "passOffCounter": 151,
+        "active": 1
+      },
+      {
+        "netId": "gwilhelm",
+        "name": "Garrett Wilhelm",
+        "helpCounter": 92,
+        "passOffCounter": 113,
+        "active": 1
+      },
+      {
+        "netId": "jcar96",
+        "name": "Jasmyne Carson",
+        "helpCounter": 81,
+        "passOffCounter": 116,
+        "active": 1
+      },
+      {
+        "netId": "enoches",
+        "name": "Enoch Stewart",
+        "helpCounter": 70,
+        "passOffCounter": 76,
+        "active": 1
+      },
+      {
+        "netId": "kevinhop",
+        "name": "Kevin W Hopper",
+        "helpCounter": 53,
+        "passOffCounter": 76,
+        "active": 1
+      },
+      {
+        "netId": "elijahgk",
+        "name": "Elijah Gerber-Kai",
+        "helpCounter": 51,
+        "passOffCounter": 66,
+        "active": 1
+      },
+      {
+        "netId": "edoyle91",
+        "name": "Edward Doyle",
+        "helpCounter": 24,
+        "passOffCounter": 21,
+        "active": 1
+      },
+      {
+        "netId": "xu314",
+        "name": "Yifeng Xu",
+        "helpCounter": 12,
+        "passOffCounter": 11,
+        "active": 1
+      },
+      {
+        "netId": "egm8",
+        "name": "Eric Mercer",
+        "helpCounter": 4,
+        "passOffCounter": 0,
+        "active": 1
+      },
+      {
+        "netId": "gbspend",
+        "name": "Brad Spendlove",
+        "helpCounter": 0,
+        "passOffCounter": 0,
+        "active": 1
+      },
+      {
+        "netId": "vn224",
+        "name": "Vaishnavi Narayan",
+        "helpCounter": 0,
+        "passOffCounter": 0,
+        "active": 1
+      },
+      {
+        "netId": "cg299",
+        "name": "Christophe Giraud-Carrier",
+        "helpCounter": 0,
+        "passOffCounter": 0,
+        "active": 1
+      },
+      {
+        "netId": "jsmart23",
+        "name": "Jake Smart",
+        "helpCounter": 0,
+        "passOffCounter": 0,
+        "active": -2
+      }
+    ],
+    "students": [
+      {
+        "netId": "mortenr1",
+        "name": "Ryan Mortensen Sec three",
+        "helpCounter": 26,
+        "passOffCounter": 4
+      },
+      {
+        "netId": "ezrajc",
+        "name": "Ezra Clark",
+        "helpCounter": 22,
+        "passOffCounter": 3
+      },
+      {
+        "netId": "mlbdance",
+        "name": "Maddie B",
+        "helpCounter": 16,
+        "passOffCounter": 13
+      },
+      {
+        "netId": "kernal94",
+        "name": "Matthew Kern",
+        "helpCounter": 13,
+        "passOffCounter": 2
+      },
+      {
+        "netId": "rockstop",
+        "name": "Aidan Cano",
+        "helpCounter": 13,
+        "passOffCounter": 5
+      },
+      {
+        "netId": "zgrubbe",
+        "name": "Zac Grubbe",
+        "helpCounter": 12,
+        "passOffCounter": 4
+      },
+      {
+        "netId": "janst",
+        "name": "Joshua",
+        "helpCounter": 12,
+        "passOffCounter": 5
+      },
+      {
+        "netId": "btberg",
+        "name": "Brandon Berg",
+        "helpCounter": 11,
+        "passOffCounter": 2
+      },
+      {
+        "netId": "dalfr76",
+        "name": "Rob Seymour",
+        "helpCounter": 11,
+        "passOffCounter": 5
+      },
+      {
+        "netId": "dani81",
+        "name": "Danielle Lynn",
+        "helpCounter": 11,
+        "passOffCounter": 4
+      },
+      {
+        "netId": "davidsw3",
+        "name": "David",
+        "helpCounter": 10,
+        "passOffCounter": 5
+      },
+      {
+        "netId": "samiam8",
+        "name": "Sam Ross",
+        "helpCounter": 10,
+        "passOffCounter": 2
+      },
+      {
+        "netId": "logann2",
+        "name": "Logan Nielsen",
+        "helpCounter": 9,
+        "passOffCounter": 4
+      },
+      {
+        "netId": "dsegrera",
+        "name": "Daniel Segrera",
+        "helpCounter": 9,
+        "passOffCounter": 4
+      },
+      {
+        "netId": "sarahnj",
+        "name": "Naomi",
+        "helpCounter": 8,
+        "passOffCounter": 4
+      },
+      {
+        "netId": "bquirant",
+        "name": "Braeden",
+        "helpCounter": 8,
+        "passOffCounter": 3
+      },
+      {
+        "netId": "jaxondk",
+        "name": "Jaxon K",
+        "helpCounter": 8,
+        "passOffCounter": 0
+      },
+      {
+        "netId": "krommend",
+        "name": "Daniel Krommenhoek",
+        "helpCounter": 8,
+        "passOffCounter": 1
+      },
+      {
+        "netId": "tdbrady",
+        "name": "Tyler Brady",
+        "helpCounter": 8,
+        "passOffCounter": 8
+      },
+      {
+        "netId": "dc1992",
+        "name": "David Christensen",
+        "helpCounter": 8,
+        "passOffCounter": 1
+      },
+      {
+        "netId": "andrewj",
+        "name": "Andrew Jacobson",
+        "helpCounter": 7,
+        "passOffCounter": 4
+      },
+      {
+        "netId": "eric140",
+        "name": "Eric Murdock",
+        "helpCounter": 7,
+        "passOffCounter": 8
+      },
+      {
+        "netId": "abramb",
+        "name": "Abram Beazer",
+        "helpCounter": 6,
+        "passOffCounter": 4
+      },
+      {
+        "netId": "cuencaf",
+        "name": "Freddie Cuenca",
+        "helpCounter": 6,
+        "passOffCounter": 4
+      },
+      {
+        "netId": "buhler08",
+        "name": "Robert Buhler",
+        "helpCounter": 6,
+        "passOffCounter": 0
+      },
+      {
+        "netId": "nwh19",
+        "name": "Nathaniel Hebbert",
+        "helpCounter": 6,
+        "passOffCounter": 4
+      },
+      {
+        "netId": "cwheel7",
+        "name": "Christian Wheeler",
+        "helpCounter": 6,
+        "passOffCounter": 2
+      },
+      {
+        "netId": "jmk223",
+        "name": "Jonathan King",
+        "helpCounter": 6,
+        "passOffCounter": 0
+      },
+      {
+        "netId": "grosej",
+        "name": "Julianne grose",
+        "helpCounter": 6,
+        "passOffCounter": 3
+      },
+      {
+        "netId": "agriff",
+        "name": "Autumn Griffin",
+        "helpCounter": 5,
+        "passOffCounter": 1
+      },
+      {
+        "netId": "dskou7",
+        "name": "Donny Skousen",
+        "helpCounter": 5,
+        "passOffCounter": 1
+      },
+      {
+        "netId": "traysonk",
+        "name": "Trayson",
+        "helpCounter": 5,
+        "passOffCounter": 2
+      },
+      {
+        "netId": "ntj22",
+        "name": "Nate Jenkins",
+        "helpCounter": 5,
+        "passOffCounter": 2
+      },
+      {
+        "netId": "eleanorm",
+        "name": "Ellie",
+        "helpCounter": 4,
+        "passOffCounter": 5
+      },
+      {
+        "netId": "dhawkes",
+        "name": "Doug",
+        "helpCounter": 4,
+        "passOffCounter": 1
+      },
+      {
+        "netId": "lornasp",
+        "name": "Sheradyn Hamilton",
+        "helpCounter": 4,
+        "passOffCounter": 1
+      },
+      {
+        "netId": "legerg05",
+        "name": "Eric Knutson",
+        "helpCounter": 4,
+        "passOffCounter": 1
+      },
+      {
+        "netId": "caussepa",
+        "name": "Pauline Causse",
+        "helpCounter": 4,
+        "passOffCounter": 4
+      },
+      {
+        "netId": "byugrant",
+        "name": "Grant Rowberry",
+        "helpCounter": 4,
+        "passOffCounter": 4
+      },
+      {
+        "netId": "dbondd",
+        "name": "Bond Denhalter",
+        "helpCounter": 4,
+        "passOffCounter": 1
+      },
+      {
+        "netId": "black84",
+        "name": "Adam Black",
+        "helpCounter": 4,
+        "passOffCounter": 4
+      },
+      {
+        "netId": "atate2",
+        "name": "Andrew Tate",
+        "helpCounter": 4,
+        "passOffCounter": 6
+      },
+      {
+        "netId": "isw22",
+        "name": "Isaac",
+        "helpCounter": 4,
+        "passOffCounter": 4
+      },
+      {
+        "netId": "mkfryer",
+        "name": "Michael Fryer",
+        "helpCounter": 4,
+        "passOffCounter": 5
+      },
+      {
+        "netId": "tkarh",
+        "name": "Tess Houghton",
+        "helpCounter": 3,
+        "passOffCounter": 3
+      },
+      {
+        "netId": "antipus",
+        "name": "Morgan",
+        "helpCounter": 3,
+        "passOffCounter": 6
+      },
+      {
+        "netId": "tjense25",
+        "name": "Tanner Jensen",
+        "helpCounter": 3,
+        "passOffCounter": 3
+      },
+      {
+        "netId": "pjacobr",
+        "name": "Jacob Pettingill",
+        "helpCounter": 3,
+        "passOffCounter": 3
+      },
+      {
+        "netId": "mdevey3",
+        "name": "Matthew Devey",
+        "helpCounter": 3,
+        "passOffCounter": 5
+      },
+      {
+        "netId": "dhancoc2",
+        "name": "Daniel Hancock",
+        "helpCounter": 3,
+        "passOffCounter": 2
+      },
+      {
+        "netId": "jjb19",
+        "name": "Justin Brunner",
+        "helpCounter": 3,
+        "passOffCounter": 2
+      },
+      {
+        "netId": "crabmatt",
+        "name": "Matthew Crabtree",
+        "helpCounter": 3,
+        "passOffCounter": 7
+      },
+      {
+        "netId": "tdryden",
+        "name": "Tevis Dryden",
+        "helpCounter": 3,
+        "passOffCounter": 1
+      },
+      {
+        "netId": "rms2468",
+        "name": "Rachel Sevey",
+        "helpCounter": 3,
+        "passOffCounter": 3
+      },
+      {
+        "netId": "tymull",
+        "name": "Ty Mull",
+        "helpCounter": 3,
+        "passOffCounter": 0
+      },
+      {
+        "netId": "aet4612",
+        "name": "Anne Thomas",
+        "helpCounter": 3,
+        "passOffCounter": 1
+      },
+      {
+        "netId": "jmatt23",
+        "name": "Jordan Mattingley",
+        "helpCounter": 3,
+        "passOffCounter": 4
+      },
+      {
+        "netId": "dgladen",
+        "name": "David Gladen",
+        "helpCounter": 3,
+        "passOffCounter": 4
+      },
+      {
+        "netId": "ashtynk",
+        "name": "Ashtyn Groesbeck",
+        "helpCounter": 3,
+        "passOffCounter": 2
+      },
+      {
+        "netId": "durban13",
+        "name": "Corbin Redford",
+        "helpCounter": 3,
+        "passOffCounter": 1
+      },
+      {
+        "netId": "ninjup",
+        "name": "Britton Bunn",
+        "helpCounter": 3,
+        "passOffCounter": 0
+      },
+      {
+        "netId": "acf7082",
+        "name": "Alexis Fisher",
+        "helpCounter": 3,
+        "passOffCounter": 4
+      },
+      {
+        "netId": "colese2",
+        "name": "Cole Erickson",
+        "helpCounter": 2,
+        "passOffCounter": 2
+      },
+      {
+        "netId": "bjames63",
+        "name": "Benjamin James",
+        "helpCounter": 2,
+        "passOffCounter": 4
+      },
+      {
+        "netId": "bogles2",
+        "name": "Benjamin Ogles",
+        "helpCounter": 2,
+        "passOffCounter": 4
+      },
+      {
+        "netId": "abowcut",
+        "name": "Alex Bowcut",
+        "helpCounter": 2,
+        "passOffCounter": 3
+      },
+      {
+        "netId": "golda",
+        "name": "Adam Gold",
+        "helpCounter": 2,
+        "passOffCounter": 0
+      },
+      {
+        "netId": "tannermy",
+        "name": "Tanner Yorgason",
+        "helpCounter": 2,
+        "passOffCounter": 2
+      },
+      {
+        "netId": "mkupfer",
+        "name": "Matthew Kupferer ",
+        "helpCounter": 2,
+        "passOffCounter": 3
+      },
+      {
+        "netId": "dmann181",
+        "name": "Derek Mann",
+        "helpCounter": 2,
+        "passOffCounter": 1
+      },
+      {
+        "netId": "davidmb2",
+        "name": "David Brinkerhoff",
+        "helpCounter": 2,
+        "passOffCounter": 0
+      },
+      {
+        "netId": "jared28",
+        "name": "Jared smith",
+        "helpCounter": 2,
+        "passOffCounter": 4
+      },
+      {
+        "netId": "yassef",
+        "name": "Alif Ancheita",
+        "helpCounter": 2,
+        "passOffCounter": 2
+      },
+      {
+        "netId": "drc95",
+        "name": "Dallin Clayton",
+        "helpCounter": 2,
+        "passOffCounter": 1
+      },
+      {
+        "netId": "zshorts",
+        "name": "Zachary Shorts",
+        "helpCounter": 2,
+        "passOffCounter": 4
+      },
+      {
+        "netId": "sirwes",
+        "name": "Wesley Stevens",
+        "helpCounter": 2,
+        "passOffCounter": 6
+      },
+      {
+        "netId": "jttanner",
+        "name": "Jonathan Tanner",
+        "helpCounter": 2,
+        "passOffCounter": 3
+      },
+      {
+        "netId": "pbstrein",
+        "name": "Peter Strein",
+        "helpCounter": 2,
+        "passOffCounter": 3
+      },
+      {
+        "netId": "aegbert5",
+        "name": "Aaron Egbert",
+        "helpCounter": 2,
+        "passOffCounter": 3
+      },
+      {
+        "netId": "marcosoo",
+        "name": "Marcos",
+        "helpCounter": 2,
+        "passOffCounter": 1
+      },
+      {
+        "netId": "komodo",
+        "name": "Logan Miller",
+        "helpCounter": 2,
+        "passOffCounter": 3
+      },
+      {
+        "netId": "bjlund95",
+        "name": "Bryce Lund",
+        "helpCounter": 2,
+        "passOffCounter": 0
+      },
+      {
+        "netId": "woodmank",
+        "name": "Kylie Woodman",
+        "helpCounter": 2,
+        "passOffCounter": 1
+      },
+      {
+        "netId": "nandero",
+        "name": "Nathan Anderson",
+        "helpCounter": 2,
+        "passOffCounter": 0
+      },
+      {
+        "netId": "joshuacm",
+        "name": "Josh Millheim",
+        "helpCounter": 2,
+        "passOffCounter": 0
+      },
+      {
+        "netId": "nsshurtz",
+        "name": "Nathan Shurtz",
+        "helpCounter": 1,
+        "passOffCounter": 4
+      },
+      {
+        "netId": "tnelsonw",
+        "name": "Nelson Whitney ",
+        "helpCounter": 1,
+        "passOffCounter": 5
+      },
+      {
+        "netId": "mac494",
+        "name": "Michael Carlson",
+        "helpCounter": 1,
+        "passOffCounter": 1
+      },
+      {
+        "netId": "gassajor",
+        "name": "Jordan Gassaway",
+        "helpCounter": 1,
+        "passOffCounter": 3
+      },
+      {
+        "netId": "segrossa",
+        "name": "Savannah Grossarth ",
+        "helpCounter": 1,
+        "passOffCounter": 3
+      },
+      {
+        "netId": "codyk12",
+        "name": "Cody Kesler",
+        "helpCounter": 1,
+        "passOffCounter": 8
+      },
+      {
+        "netId": "tkwilkes",
+        "name": "Tucker Wilkes",
+        "helpCounter": 1,
+        "passOffCounter": 3
+      },
+      {
+        "netId": "gainge2",
+        "name": "Gibson Ainge",
+        "helpCounter": 1,
+        "passOffCounter": 3
+      },
+      {
+        "netId": "cambam37",
+        "name": "Cameron Sanchez",
+        "helpCounter": 1,
+        "passOffCounter": 6
+      },
+      {
+        "netId": "atorge33",
+        "name": "Andrew Torgesen",
+        "helpCounter": 1,
+        "passOffCounter": 1
+      },
+      {
+        "netId": "jntrcs",
+        "name": "Jackson Curtis",
+        "helpCounter": 1,
+        "passOffCounter": 3
+      },
+      {
+        "netId": "jdw922",
+        "name": "Jaron Wakley",
+        "helpCounter": 1,
+        "passOffCounter": 7
+      },
+      {
+        "netId": "tmabey2",
+        "name": "Timothy",
+        "helpCounter": 1,
+        "passOffCounter": 4
+      },
+      {
+        "netId": "chrisa27",
+        "name": "Chris Arnold",
+        "helpCounter": 1,
+        "passOffCounter": 6
+      },
+      {
+        "netId": "mcs1000",
+        "name": "Michael Sederberg",
+        "helpCounter": 1,
+        "passOffCounter": 1
+      },
+      {
+        "netId": "dylanmoh",
+        "name": "Dylan Moh",
+        "helpCounter": 1,
+        "passOffCounter": 2
+      },
+      {
+        "netId": "wademh",
+        "name": "Wade Healy",
+        "helpCounter": 1,
+        "passOffCounter": 3
+      },
+      {
+        "netId": "liyage",
+        "name": "Jacob Michaelis",
+        "helpCounter": 1,
+        "passOffCounter": 2
+      },
+      {
+        "netId": "jteela",
+        "name": "Jeremy Teela",
+        "helpCounter": 1,
+        "passOffCounter": 12
+      },
+      {
+        "netId": "coy333",
+        "name": "Coy Christensen",
+        "helpCounter": 1,
+        "passOffCounter": 6
+      },
+      {
+        "netId": "dastin",
+        "name": "Dillon Astin",
+        "helpCounter": 1,
+        "passOffCounter": 3
+      },
+      {
+        "netId": "kylej13",
+        "name": "Kyle Johnsen",
+        "helpCounter": 1,
+        "passOffCounter": 3
+      },
+      {
+        "netId": "fishekoa",
+        "name": "Koa",
+        "helpCounter": 1,
+        "passOffCounter": 1
+      },
+      {
+        "netId": "ashnik",
+        "name": "Ash N",
+        "helpCounter": 1,
+        "passOffCounter": 1
+      },
+      {
+        "netId": "jrod95",
+        "name": "Jason Rodriguez",
+        "helpCounter": 1,
+        "passOffCounter": 3
+      },
+      {
+        "netId": "parkergb",
+        "name": "Parker Bronson",
+        "helpCounter": 1,
+        "passOffCounter": 3
+      },
+      {
+        "netId": "gbens",
+        "name": "Ben Guthrie",
+        "helpCounter": 1,
+        "passOffCounter": 3
+      },
+      {
+        "netId": "ashcr6",
+        "name": "Chace",
+        "helpCounter": 1,
+        "passOffCounter": 5
+      },
+      {
+        "netId": "sotaur",
+        "name": "Christian Lambert",
+        "helpCounter": 1,
+        "passOffCounter": 5
+      },
+      {
+        "netId": "bakera95",
+        "name": "Austin Baker",
+        "helpCounter": 1,
+        "passOffCounter": 1
+      },
+      {
+        "netId": "jlund9",
+        "name": "John Lund",
+        "helpCounter": 1,
+        "passOffCounter": 2
+      },
+      {
+        "netId": "adsco518",
+        "name": "Adam Robertson",
+        "helpCounter": 1,
+        "passOffCounter": 3
+      },
+      {
+        "netId": "cyzone49",
+        "name": "Dat Vu",
+        "helpCounter": 1,
+        "passOffCounter": 4
+      },
+      {
+        "netId": "jashelt",
+        "name": "Josh Shelton",
+        "helpCounter": 1,
+        "passOffCounter": 0
+      },
+      {
+        "netId": "alexechu",
+        "name": "Alex Chu",
+        "helpCounter": 1,
+        "passOffCounter": 2
+      },
+      {
+        "netId": "macrow7",
+        "name": "Mike Crowther",
+        "helpCounter": 1,
+        "passOffCounter": 1
+      },
+      {
+        "netId": "aguel",
+        "name": "alexis",
+        "helpCounter": 1,
+        "passOffCounter": 0
+      },
+      {
+        "netId": "dweaver7",
+        "name": "Dallin Weaver",
+        "helpCounter": 1,
+        "passOffCounter": 4
+      },
+      {
+        "netId": "torsteng",
+        "name": "Torsten Gang",
+        "helpCounter": 1,
+        "passOffCounter": 2
+      },
+      {
+        "netId": "dcorey28",
+        "name": "David Corey",
+        "helpCounter": 1,
+        "passOffCounter": 2
+      },
+      {
+        "netId": "ngolight",
+        "name": "Nathan",
+        "helpCounter": 1,
+        "passOffCounter": 3
+      },
+      {
+        "netId": "aacevedo",
+        "name": "Alexis Acevedo",
+        "helpCounter": 1,
+        "passOffCounter": 0
+      },
+      {
+        "netId": "beefhead",
+        "name": "Waldo",
+        "helpCounter": 0,
+        "passOffCounter": 3
+      },
+      {
+        "netId": "jacobej",
+        "name": "Jacob Johnson",
+        "helpCounter": 0,
+        "passOffCounter": 0
+      },
+      {
+        "netId": "dentonc",
+        "name": "Chip Denton",
+        "helpCounter": 0,
+        "passOffCounter": 1
+      },
+      {
+        "netId": "haviland",
+        "name": "Jared Haviland",
+        "helpCounter": 0,
+        "passOffCounter": 2
+      },
+      {
+        "netId": "dnajarro",
+        "name": "Daniel Najarro",
+        "helpCounter": 0,
+        "passOffCounter": 4
+      },
+      {
+        "netId": "mcp97",
+        "name": "Matthew Price",
+        "helpCounter": 0,
+        "passOffCounter": 0
+      },
+      {
+        "netId": "jrb1997",
+        "name": "Jacob Burnham",
+        "helpCounter": 0,
+        "passOffCounter": 0
+      },
+      {
+        "netId": "russfitz",
+        "name": "Russell Fitzpatrick",
+        "helpCounter": 0,
+        "passOffCounter": 5
+      },
+      {
+        "netId": "xanderch",
+        "name": "Alexander Hooper",
+        "helpCounter": 0,
+        "passOffCounter": 5
+      },
+      {
+        "netId": "lkjames",
+        "name": "Lance James",
+        "helpCounter": 0,
+        "passOffCounter": 2
+      },
+      {
+        "netId": "leavit92",
+        "name": "Jennings Leavitt",
+        "helpCounter": 0,
+        "passOffCounter": 2
+      },
+      {
+        "netId": "gpa1294",
+        "name": "Gabriel Adams",
+        "helpCounter": 0,
+        "passOffCounter": 0
+      },
+      {
+        "netId": "mtb76",
+        "name": "Stephen Kendall",
+        "helpCounter": 0,
+        "passOffCounter": 2
+      },
+      {
+        "netId": "grace97",
+        "name": "Emma Hunt",
+        "helpCounter": 0,
+        "passOffCounter": 3
+      },
+      {
+        "netId": "bmillerb",
+        "name": "Brian Millerberg",
+        "helpCounter": 0,
+        "passOffCounter": 4
+      },
+      {
+        "netId": "mjhening",
+        "name": "Michael Heninger",
+        "helpCounter": 0,
+        "passOffCounter": 0
+      },
+      {
+        "netId": "micgre93",
+        "name": "Michael Greenburg",
+        "helpCounter": 0,
+        "passOffCounter": 4
+      },
+      {
+        "netId": "hygunth",
+        "name": "Hyrum Gunther",
+        "helpCounter": 0,
+        "passOffCounter": 3
+      },
+      {
+        "netId": "claycole",
+        "name": "Clay Coleman",
+        "helpCounter": 0,
+        "passOffCounter": 1
+      },
+      {
+        "netId": "drmercer",
+        "name": "Dan Mercer",
+        "helpCounter": 0,
+        "passOffCounter": 1
+      },
+      {
+        "netId": "eframe2",
+        "name": "Eric Frame",
+        "helpCounter": 0,
+        "passOffCounter": 2
+      },
+      {
+        "netId": "jjones95",
+        "name": "Joseph Jones",
+        "helpCounter": 0,
+        "passOffCounter": 4
+      },
+      {
+        "netId": "jpumford",
+        "name": "Justin",
+        "helpCounter": 0,
+        "passOffCounter": 3
+      },
+      {
+        "netId": "joshuao2",
+        "name": "Josh Olson",
+        "helpCounter": 0,
+        "passOffCounter": 2
+      },
+      {
+        "netId": "jsswede",
+        "name": "Jay Sargent",
+        "helpCounter": 0,
+        "passOffCounter": 0
+      },
+      {
+        "netId": "cartermc",
+        "name": "Carter McBride",
+        "helpCounter": 0,
+        "passOffCounter": 5
+      },
+      {
+        "netId": "grigg3",
+        "name": "Jesse Grigg",
+        "helpCounter": 0,
+        "passOffCounter": 0
+      },
+      {
+        "netId": "jcb67",
+        "name": "Cory",
+        "helpCounter": 0,
+        "passOffCounter": 0
+      },
+      {
+        "netId": "bgrace",
+        "name": "Brenden Grace",
+        "helpCounter": 0,
+        "passOffCounter": 2
+      },
+      {
+        "netId": "hlysm377",
+        "name": "Alyssa Howard",
+        "helpCounter": 0,
+        "passOffCounter": 0
+      },
+      {
+        "netId": "gzapata",
+        "name": "Gabriel",
+        "helpCounter": 0,
+        "passOffCounter": 5
+      },
+      {
+        "netId": "eportela",
+        "name": "Edward A Portela",
+        "helpCounter": 0,
+        "passOffCounter": 2
+      },
+      {
+        "netId": "a1994lex",
+        "name": "Alex Powley",
+        "helpCounter": 0,
+        "passOffCounter": 1
+      },
+      {
+        "netId": "csloan4",
+        "name": "Carter Sloan",
+        "helpCounter": 0,
+        "passOffCounter": 3
+      },
+      {
+        "netId": "mhastin2",
+        "name": "Marissa Hastings",
+        "helpCounter": 0,
+        "passOffCounter": 3
+      },
+      {
+        "netId": "olive29",
+        "name": "Charlie Oliverson",
+        "helpCounter": 0,
+        "passOffCounter": 2
+      },
+      {
+        "netId": "katiep1",
+        "name": "Katie Percival",
+        "helpCounter": 0,
+        "passOffCounter": 2
+      },
+      {
+        "netId": "horrock6",
+        "name": "Ben Horrocks",
+        "helpCounter": 0,
+        "passOffCounter": 3
+      },
+      {
+        "netId": "fialat",
+        "name": "Tanner",
+        "helpCounter": 0,
+        "passOffCounter": 3
+      },
+      {
+        "netId": "davidhb",
+        "name": "David Bean",
+        "helpCounter": 0,
+        "passOffCounter": 0
+      },
+      {
+        "netId": "jjs254",
+        "name": "Joshua Simpson",
+        "helpCounter": 0,
+        "passOffCounter": 2
+      },
+      {
+        "netId": "landonas",
+        "name": "Landon Smith",
+        "helpCounter": 0,
+        "passOffCounter": 3
+      },
+      {
+        "netId": "rydajs",
+        "name": "Jared Rydalch",
+        "helpCounter": 0,
+        "passOffCounter": 3
+      },
+      {
+        "netId": "jseely23",
+        "name": "Jacob Seely",
+        "helpCounter": 0,
+        "passOffCounter": 4
+      },
+      {
+        "netId": "iclee141",
+        "name": "Iain",
+        "helpCounter": 0,
+        "passOffCounter": 2
+      },
+      {
+        "netId": "danrod",
+        "name": "Daniel Rodriguez",
+        "helpCounter": 0,
+        "passOffCounter": 5
+      },
+      {
+        "netId": "telestew",
+        "name": "Stewart McGinnis",
+        "helpCounter": 0,
+        "passOffCounter": 1
+      },
+      {
+        "netId": "bstark68",
+        "name": "Brittany Stark",
+        "helpCounter": 0,
+        "passOffCounter": 6
+      },
+      {
+        "netId": "bretttb",
+        "name": "Brett Beatty",
+        "helpCounter": 0,
+        "passOffCounter": 1
+      },
+      {
+        "netId": "djyoung",
+        "name": "Dylan Young",
+        "helpCounter": 0,
+        "passOffCounter": 3
+      },
+      {
+        "netId": "dasolomo",
+        "name": "David Solomon",
+        "helpCounter": 0,
+        "passOffCounter": 8
+      },
+      {
+        "netId": "brianlj",
+        "name": "Brian",
+        "helpCounter": 0,
+        "passOffCounter": 2
+      },
+      {
+        "netId": "mpratt4",
+        "name": "Michael Pratt",
+        "helpCounter": 0,
+        "passOffCounter": 2
+      },
+      {
+        "netId": "mbrad94",
+        "name": "Michael Bradshaw",
+        "helpCounter": 0,
+        "passOffCounter": 5
+      },
+      {
+        "netId": "alhicks",
+        "name": "Alexis Hicks",
+        "helpCounter": 0,
+        "passOffCounter": 0
+      },
+      {
+        "netId": "hcodyd",
+        "name": "Cody",
+        "helpCounter": 0,
+        "passOffCounter": 4
+      },
+      {
+        "netId": "ahill18",
+        "name": "Aaron Hill",
+        "helpCounter": 0,
+        "passOffCounter": 4
+      },
+      {
+        "netId": "lucienb",
+        "name": "Lucien Briscoe",
+        "helpCounter": 0,
+        "passOffCounter": 0
+      },
+      {
+        "netId": "jmkeener",
+        "name": "Joseph Keener",
+        "helpCounter": 0,
+        "passOffCounter": 3
+      },
+      {
+        "netId": "agudmund",
+        "name": "AJ",
+        "helpCounter": 0,
+        "passOffCounter": 0
+      },
+      {
+        "netId": "alex8",
+        "name": "Ben Alexander",
+        "helpCounter": 0,
+        "passOffCounter": 3
+      },
+      {
+        "netId": "btwede10",
+        "name": "Brandon Twede",
+        "helpCounter": 0,
+        "passOffCounter": 2
+      },
+      {
+        "netId": "lwoolf4",
+        "name": "Lindsey Woolf",
+        "helpCounter": 0,
+        "passOffCounter": 2
+      },
+      {
+        "netId": "son1124",
+        "name": "Samuel Nuttall",
+        "helpCounter": 0,
+        "passOffCounter": 2
+      },
+      {
+        "netId": "hlj239",
+        "name": "Hector Lopez",
+        "helpCounter": 0,
+        "passOffCounter": 2
+      },
+      {
+        "netId": "juliocc",
+        "name": "Julio Cruz",
+        "helpCounter": 0,
+        "passOffCounter": 1
+      },
+      {
+        "netId": "bcis93",
+        "name": "Bryan Cisneros",
+        "helpCounter": 0,
+        "passOffCounter": 4
+      },
+      {
+        "netId": "davidown",
+        "name": "David Owen",
+        "helpCounter": 0,
+        "passOffCounter": 2
+      },
+      {
+        "netId": "cmbay",
+        "name": "Cameron Bay",
+        "helpCounter": 0,
+        "passOffCounter": 2
+      },
+      {
+        "netId": "dannyh",
+        "name": "Daniel Holayter",
+        "helpCounter": 0,
+        "passOffCounter": 2
+      },
+      {
+        "netId": "jcdunn",
+        "name": "John Dunn",
+        "helpCounter": 0,
+        "passOffCounter": 1
+      },
+      {
+        "netId": "arod2",
+        "name": "Austin Rodriguez",
+        "helpCounter": 0,
+        "passOffCounter": 3
+      },
+      {
+        "netId": "dmines",
+        "name": "Derek Mines",
+        "helpCounter": 0,
+        "passOffCounter": 7
+      },
+      {
+        "netId": "brown788",
+        "name": "Michael Brown",
+        "helpCounter": 0,
+        "passOffCounter": 6
+      },
+      {
+        "netId": "coman124",
+        "name": "Connor Hewitt",
+        "helpCounter": 0,
+        "passOffCounter": 1
+      },
+      {
+        "netId": "sahlgren",
+        "name": "Steven Ahlgren",
+        "helpCounter": 0,
+        "passOffCounter": 0
+      },
+      {
+        "netId": "zdahle",
+        "name": "Zachary Dahle",
+        "helpCounter": 0,
+        "passOffCounter": 1
+      },
+      {
+        "netId": "princec7",
+        "name": "Carl Prince",
+        "helpCounter": 0,
+        "passOffCounter": 1
+      },
+      {
+        "netId": "jaredn3",
+        "name": "Jared Nielsen",
+        "helpCounter": 0,
+        "passOffCounter": 5
+      },
+      {
+        "netId": "rorykh",
+        "name": "Rory",
+        "helpCounter": 0,
+        "passOffCounter": 5
+      },
+      {
+        "netId": "pspenc",
+        "name": "Patrick Spencer",
+        "helpCounter": 0,
+        "passOffCounter": 2
+      },
+      {
+        "netId": "grahamdj",
+        "name": "David Graham",
+        "helpCounter": 0,
+        "passOffCounter": 2
+      },
+      {
+        "netId": "mazurabk",
+        "name": "Kallas Mazura",
+        "helpCounter": 0,
+        "passOffCounter": 2
+      },
+      {
+        "netId": "wlbr95",
+        "name": "Bill Richards",
+        "helpCounter": 0,
+        "passOffCounter": 2
+      },
+      {
+        "netId": "connorag",
+        "name": "Connor Grimm",
+        "helpCounter": 0,
+        "passOffCounter": 2
+      },
+      {
+        "netId": "abraxrv",
+        "name": "Abraham Ruiz Villalobos",
+        "helpCounter": 0,
+        "passOffCounter": 3
+      },
+      {
+        "netId": "derekjn",
+        "name": "Derek Nielsen",
+        "helpCounter": 0,
+        "passOffCounter": 2
+      },
+      {
+        "netId": "tingey94",
+        "name": "Mitchell Tingey",
+        "helpCounter": 0,
+        "passOffCounter": 0
+      },
+      {
+        "netId": "anderzt",
+        "name": "Zack",
+        "helpCounter": 0,
+        "passOffCounter": 2
+      },
+      {
+        "netId": "kenned35",
+        "name": null,
+        "helpCounter": 0,
+        "passOffCounter": 0
+      },
+      {
+        "netId": "snwebb6",
+        "name": "Shelby Webb",
+        "helpCounter": 0,
+        "passOffCounter": 2
+      },
+      {
+        "netId": "tetchart",
+        "name": "Tyler Etchart",
+        "helpCounter": 0,
+        "passOffCounter": 1
+      },
+      {
+        "netId": "davidmg2",
+        "name": "David Goodrich",
+        "helpCounter": 0,
+        "passOffCounter": 1
+      },
+      {
+        "netId": "icyfire2",
+        "name": "Tyler Winzenried",
+        "helpCounter": 0,
+        "passOffCounter": 2
+      },
+      {
+        "netId": "rdalbest",
+        "name": "Roland Laboulaye",
+        "helpCounter": 0,
+        "passOffCounter": 3
+      },
+      {
+        "netId": "joshua80",
+        "name": "Joshua Stephens",
+        "helpCounter": 0,
+        "passOffCounter": 4
+      },
+      {
+        "netId": "frytime",
+        "name": "Brandon Fry",
+        "helpCounter": 0,
+        "passOffCounter": 2
+      },
+      {
+        "netId": "jml248",
+        "name": "Mitchell",
+        "helpCounter": 0,
+        "passOffCounter": 2
+      },
+      {
+        "netId": "wconnorr",
+        "name": "Connor Wilhelm",
+        "helpCounter": 0,
+        "passOffCounter": 1
+      },
+      {
+        "netId": "ssamuell",
+        "name": "Sam",
+        "helpCounter": 0,
+        "passOffCounter": 0
+      },
+      {
+        "netId": "geogor37",
+        "name": "Geoffrey Gorham",
+        "helpCounter": 0,
+        "passOffCounter": 1
+      },
+      {
+        "netId": "zbattenf",
+        "name": "Zack Battenfield",
+        "helpCounter": 0,
+        "passOffCounter": 3
+      },
+      {
+        "netId": "tbradm",
+        "name": "Tate Mouser",
+        "helpCounter": 0,
+        "passOffCounter": 1
+      },
+      {
+        "netId": "devinbp",
+        "name": "Devin Porter",
+        "helpCounter": 0,
+        "passOffCounter": 1
+      },
+      {
+        "netId": "zence",
+        "name": "Zac Ence",
+        "helpCounter": 0,
+        "passOffCounter": 2
+      },
+      {
+        "netId": "litsters",
+        "name": "Sam Litster",
+        "helpCounter": 0,
+        "passOffCounter": 1
+      },
+      {
+        "netId": "ferrell3",
+        "name": "Jordan Ferrell",
+        "helpCounter": 0,
+        "passOffCounter": 2
+      },
+      {
+        "netId": "mrd595",
+        "name": "Michael Davis",
+        "helpCounter": 0,
+        "passOffCounter": 1
+      },
+      {
+        "netId": "stbro",
+        "name": "Spencer Browning",
+        "helpCounter": 0,
+        "passOffCounter": 1
+      },
+      {
+        "netId": "scm04",
+        "name": "Spencer Meredith",
+        "helpCounter": 0,
+        "passOffCounter": 1
+      },
+      {
+        "netId": "bmaze789",
+        "name": "Bridgett",
+        "helpCounter": 0,
+        "passOffCounter": 0
+      },
+      {
+        "netId": "gidman89",
+        "name": "Gideon Carter",
+        "helpCounter": 0,
+        "passOffCounter": 0
+      },
+      {
+        "netId": "cps98765",
+        "name": "Chandler Scott",
+        "helpCounter": 0,
+        "passOffCounter": 2
+      },
+      {
+        "netId": "mhunt23",
+        "name": "Morgan Hunt",
+        "helpCounter": 0,
+        "passOffCounter": 0
+      }
+    ]
+  },
+  "avgs": {
+    "avg": 0,
+    "avgLen": 0,
+    "queueLen": 0,
+    "enqueueInLastXMin": 1,
+    "dequeueInLastXMin": 0,
+    "currentlyBeingHelpedCount": 1
+  },
+  "settings": [
+    {
+      "queueActive": "true"
+    },
+    {
+      "courseTitle": "CS 236"
+    },
+    {
+      "studentPollTime": "5000"
+    },
+    {
+      "taPollTime": "3000"
+    },
+    {
+      "notifyThreshold": "3"
+    },
+    {
+      "passOffHighlightColor": "yellow"
+    },
+    {
+      "lastXMin": "5"
+    },
+    {
+      "requireQuestion": "true"
+    }
+  ]
+}

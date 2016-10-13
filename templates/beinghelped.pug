@@ -1,0 +1,14 @@
+h3 Students Being Helped
+table.table
+  tr
+    th Name
+    th NetID
+    th Question
+    th Time With TA
+  each student in list
+    -var start = moment().tz(startedGettingHelpTime, 'UTC')
+    tr
+      td= student.name
+      td= student.netId
+      td= student.question
+      td #{time.getMinutes()}:#{time.getSeconds()}
