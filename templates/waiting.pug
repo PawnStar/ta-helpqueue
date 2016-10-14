@@ -5,6 +5,7 @@ table.table
     th NetID
     th Question
     th Time Waiting
+    th Chat
   each student in list
     - var start = moment.tz(student.enqueueTime, "x", "America/Denver")
     - var current = moment.tz(Date.now(), "x", "America/Denver");
@@ -14,3 +15,5 @@ table.table
       td= student.netId
       td= student.question
       td #{duration.hours() * 60 + duration.minutes()}:#{((duration.seconds() < 10)?'0':'') + duration.seconds()}
+      td
+        a.chat-button.glyphicon.glyphicon-comment(data-netID=student.netId)

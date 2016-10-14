@@ -123,24 +123,25 @@ $(document).ready(function(){
        window.unmaximize();
      }
   })
-  $('.chat-button').click(function(ev){
-    ev.preventDefault();
-    var netID = $(this).attr('data-netID');
-    if(!remote.chatWindows)
-      remote.chatWindows = {};
-    try{
-      remote.chatWindows[netID].restore()
-    }
-    catch(e){
-      remote.chatWindows[netID] = new remote.BrowserWindow({
-        width: 400,
-        height: 600,
-        frame: false,
-      })
-      remote.chatWindows[netID].loadURL(path.join(__dirname,'chat.html') + '#' + netID);
-      remote.chatWindows[netID].webContents.openDevTools()
-    }
-    return false;
-  })
   refreshData(null);
 })
+
+setupChat = function(ev){
+  ev.preventDefault();
+  var netID = $(this).attr('data-netID');
+  if(!remote.chatWindows)
+    remote.chatWindows = {};
+  try{
+    remote.chatWindows[netID].restore()
+  }
+  catch(e){
+    remote.chatWindows[netID] = new remote.BrowserWindow({
+      width: 400,
+      height: 600,
+      frame: false,
+    })
+    remote.chatWindows[netID].loadURL(path.join(__dirname,'chat.html') + '#' + netID);
+    remote.chatWindows[netID].setMenu(null);
+  }
+  return false;
+}

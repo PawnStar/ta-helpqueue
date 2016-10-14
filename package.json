@@ -1,20 +1,16 @@
 {
-  "name": "electron-quick-start",
+  "name": "HelpQueueDemonstration",
   "version": "1.0.0",
-  "description": "A minimal Electron application",
+  "description": "An exercise in security",
   "main": "main.js",
   "scripts": {
     "start": "electron ."
   },
-  "repository": "https://github.com/electron/electron-quick-start",
+  "repository": "https://github.com/pawnstar/ta-helpqueue",
   "keywords": [
-    "Electron",
-    "quick",
-    "start",
-    "tutorial",
-    "demo"
+    "Electron"
   ],
-  "author": "GitHub",
+  "author": "Cole Erickson",
   "license": "CC0-1.0",
   "devDependencies": {
     "electron": "^1.4.1"

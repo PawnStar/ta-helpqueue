@@ -5,7 +5,9 @@ table.table
     th NetID
     th Question
     th Wait Time
+    th TA Helping Them
     th Time With TA
+    th Chat
   each student in list
     - var start = moment.tz(student.enqueueTime, "x", "America/Denver");
     - var helped = moment.tz(student.startedGettingHelpTime, "x", "America/Denver");
@@ -17,4 +19,7 @@ table.table
       td= student.netId
       td= student.question
       td #{waitTime.hours() * 60 + waitTime.minutes()}:#{((waitTime.seconds() < 10)?'0':'') + waitTime.seconds()}
+      td= student.beingHelpedBy
       td #{taTime.hours() * 60 + taTime.minutes()}:#{((taTime.seconds() < 10)?'0':'') + taTime.seconds()}
+      td
+        a.chat-button.glyphicon.glyphicon-comment(data-netID=student.netId)

@@ -17,5 +17,7 @@ var uiData = function(data){
     }), moment: moment}) +
     studentsWaiting({list: data.list.filter(function(student){
       return !student.beingHelpedBy;
-    }), moment: moment}) + '<div class="alert alert-success"><pre>' + JSON.stringify(newData, null, 2) + '</pre></div>');
+    }), moment: moment}));
+
+  $('.chat-button').click(setupChat)
 }
