@@ -59,8 +59,8 @@ In order to send you post to process.php with:
 {
   function:send
   message:Test.
-  name:colese2
-  nickname:colese2
+  name:colese2      //from
+  nickname:colese2  //to
 }
 
 Sending function:notify will open chat on their end, and display that you've entered,
