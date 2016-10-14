@@ -99,11 +99,10 @@ input.form-control{
   color:lightgray;
 }
 
-a.btn.btn-gray{
-  width:100%;
-  background:lightgray;
-  border-color:gray;
-  border:solid 1px;
+a#startChat{
+  display:block;
+  width:60%;
+  margin:40px auto;
 }
 
 /*
