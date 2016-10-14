@@ -4,7 +4,7 @@ var refreshUiInterval;
 var refreshDataTimeout;
 
 //DEBUG
-data = fileData;
+//data = fileData;
 
 $(document).ready(function(){
   var login = function(ev, callback){
@@ -36,18 +36,18 @@ $(document).ready(function(){
       clearInterval(refreshUiInterval);
     if(refreshDataTimeout)
       clearTimeout(refreshDataTimeout);
-    // $.ajax('https://students.cs.byu.edu/~cs236ta/helpqueue/getStatus.php?id=egm8',{
-    //   success:function(result){
-    //     //Check for logged-out status
-    //     if(JSON.parse(result).status == 'loggedOut'){
-    //       $('#toolbar-button-refresh').on('animationiteration', function(){
-    //         $('#toolbar-button-refresh').removeClass('spin');
-    //       })
-    //       return login(null, refreshData);
-    //     }
+    $.ajax('https://students.cs.byu.edu/~cs236ta/helpqueue/getStatus.php?id=egm8',{
+      success:function(result){
+        //Check for logged-out status
+        if(JSON.parse(result).status == 'loggedOut'){
+          $('#toolbar-button-refresh').on('animationiteration', function(){
+            $('#toolbar-button-refresh').removeClass('spin');
+          })
+          return login(null, refreshData);
+        }
 
         //Success!
-    //    data = JSON.parse(result);
+        data = JSON.parse(result);
         uiData(data);
 
         refreshUiInterval = setInterval(function(){
@@ -57,8 +57,8 @@ $(document).ready(function(){
           $('#toolbar-button-refresh').removeClass('spin');
         })
         refreshDataTimeout = setTimeout(refreshData, 10000);
-    //   }
-    // })
+      }
+    })
     return false;
   }
 
