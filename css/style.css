@@ -30,7 +30,7 @@ html, body{
   color:#c3c3c3;
 }
 
-#toolbar-buttons a:first-child{
+#toolbar-buttons a#toolbar-button-refresh{
   margin-right:15px;
 }
 
@@ -91,6 +91,19 @@ html, body{
 
 table.table th{
   border-top:none!important;
+}
+
+input.form-control{
+  background:#707070;
+  border-color:#484848;
+  color:lightgray;
+}
+
+a.btn.btn-gray{
+  width:100%;
+  background:lightgray;
+  border-color:gray;
+  border:solid 1px;
 }
 
 /*

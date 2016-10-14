@@ -59,11 +59,12 @@ In order to send you post to process.php with:
 {
   function:send
   message:Test.
-  name:colese2      //from
-  nickname:colese2  //to
+  name:colese2      //to
+  nickname:colese2  //from
 }
 
-Sending function:notify will open chat on their end, and display that you've entered,
-  but won't display again if the chat is already open.
+Sending function:notify will open chat on their end, and display that they've entered,
+  but won't display that they've entered again if it's already open.
+  Sending nickname on this command crashes their client.
 Sending function:enter will display that you have entered the chat.
 sending function:leave will display that you've left the chat.

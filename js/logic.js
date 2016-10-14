@@ -3,6 +3,8 @@ var data;
 var refreshUiInterval;
 var refreshDataTimeout;
 
+var remote = nodeRequire('electron').remote;
+
 //DEBUG
 //data = fileData;
 
@@ -89,14 +91,22 @@ $(document).ready(function(){
   $('#getData').click(refreshData);
   $('#toolbar-button-refresh').click(refreshData);
 
-
-
-
   // Toolbar stuff
-  var remote = nodeRequire('electron').remote;
-  //Toolbar buttons, because custom
   $('#toolbar-button-close').click(function(ev){
     ev.preventDefault();
+
+    //Close all windows
+    console.log(remote.chatWindows);
+    for(var netID in remote.chatWindows){
+      var window = remote.chatWindows[netID];
+      try{
+        window.close();
+      }catch(e){
+        console.log('chat with ' + netID + ' already closed');
+      }
+      window = null;
+    }
+    //Logout and close this one
     logout(null, remote.getCurrentWindow().close);
     return false;
   })
@@ -112,6 +122,25 @@ $(document).ready(function(){
      } else {
        window.unmaximize();
      }
+  })
+  $('.chat-button').click(function(ev){
+    ev.preventDefault();
+    var netID = $(this).attr('data-netID');
+    if(!remote.chatWindows)
+      remote.chatWindows = {};
+    try{
+      remote.chatWindows[netID].restore()
+    }
+    catch(e){
+      remote.chatWindows[netID] = new remote.BrowserWindow({
+        width: 400,
+        height: 600,
+        frame: false,
+      })
+      remote.chatWindows[netID].loadURL(path.join(__dirname,'chat.html') + '#' + netID);
+      remote.chatWindows[netID].webContents.openDevTools()
+    }
+    return false;
   })
   refreshData(null);
 })

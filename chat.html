@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <title>Chat With somebody</title>
+    <link rel="stylesheet" href="./css/bootstrap.min.css">
+    <link rel="stylesheet" href="./css/style.css">
+    <script type="text/javascript">
+      window.nodeRequire = require;
+      delete window.require;
+      delete window.exports;
+      delete window.module;
+    </script>
+  </head>
+  <body>
+    <div id="toolbar">
+      <p id="title">Chat With somebody</p>
+      <span id="toolbar-buttons">
+        <a href="#" id="toolbar-button-minimize"><span class="glyphicon glyphicon-chevron-down"></span></a>
+        <a href="#" id="toolbar-button-maximize"><span class="glyphicon glyphicon-chevron-up"></span></a>
+        <a href="#" id="toolbar-button-close"><span class="glyphicon glyphicon-remove"></span></a>
+      </span>
+    </div>
+    <div id="contentPadder">
+      <div class="col-md-12" id="mainContent">
+        <h1>Enter Name</h1>
+        <p>
+          <input type="text" class="form-control" placeholder="Name">
+        </p>
+        <p>
+          <a href="#" class="btn btn-danger col-md-12" id="startChat">Start Chat</a>
+        <p>
+      </div>
+    </div>
+    <script type="text/javascript" src="./js/jquery-3.1.1.min.js"></script>
+    <script type="text/javascript" src="./js/bootstrap.min.js"></script>
+    <script type="text/javascript" src="./js/chat.js"></script>
+    <script type="text/javascript">
+      setupWindow(window.location.hash.substr(1));
+    </script>
+  </body>
+</html>
