@@ -30,3 +30,40 @@ your own netID.  If the returned object has non null enqueueTime, you're in the 
 in the queue the spot property will be -1.  0 is in the queue and currently being helped.
 
 A good way to test if you are in the queue or not is to query getStatus.php with your own netID
+
+=====
+
+# Chat:
+
+In order to recieve messages you must know the current state.  You can get that by querying process.php with:
+{
+  function:getState
+  name:colese2
+}
+And it will respond with:
+{done: true, state: 27}
+
+You can continue polling with:
+{
+  function:update
+  state:27  //The state you recieved from the original getState query
+  name:colese2
+}
+It will respond with:
+{done: true, pop: false, state: "27", text: false}
+
+If there is a message, the state will increment, and text will be an array of messages:
+{done: true, pop: false, state: 28, text: ["<span>netID</span>Message. "]}
+
+In order to send you post to process.php with:
+{
+  function:send
+  message:Test.
+  name:colese2
+  nickname:colese2
+}
+
+Sending function:notify will open chat on their end, and display that you've entered,
+  but won't display again if the chat is already open.
+Sending function:enter will display that you have entered the chat.
+sending function:leave will display that you've left the chat.
