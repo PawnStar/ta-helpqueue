@@ -13,4 +13,4 @@ table.table
       td= student.name
       td= student.netId
       td= student.question
-      td #{duration.hours() * 60 + duration.minutes()}:#{duration.seconds()}
+      td #{duration.hours() * 60 + duration.minutes()}:#{((duration.seconds() < 10)?'0':'') + duration.seconds()}

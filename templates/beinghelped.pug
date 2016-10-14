@@ -16,5 +16,5 @@ table.table
       td= student.name
       td= student.netId
       td= student.question
-      td #{waitTime.hours() * 60 + waitTime.minutes()}:#{waitTime.seconds()}
-      td #{taTime.hours() * 60 + taTime.minutes()}:#{taTime.seconds()}
+      td #{waitTime.hours() * 60 + waitTime.minutes()}:#{((waitTime.seconds() < 10)?'0':'') + waitTime.seconds()}
+      td #{taTime.hours() * 60 + taTime.minutes()}:#{((taTime.seconds() < 10)?'0':'') + taTime.seconds()}
