@@ -8,7 +8,6 @@ table.table
   each student in list
     - var start = moment.tz(student.enqueueTime, "x", "America/Denver")
     - var current = moment.tz(Date.now(), "x", "America/Denver");
-    - console.log(current.format('x'))
     - var duration = moment.duration(current.diff(start))
     tr
       td= student.name
