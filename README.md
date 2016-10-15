@@ -1,38 +1,19 @@
-# electron-quick-start
+# TA Help Queue Security Demo
 
-**Clone and run for a quick way to see an Electron in action.**
+**I really like our new help queue.  It works much better for passing off.  But there are some problems.**
 
-This is a minimal Electron application based on the [Quick Start Guide](http://electron.atom.io/docs/latest/tutorial/quick-start) within the Electron documentation.
+This was built over the last four or five days to showcase a few issues I found with the help queue.  I made this app to demonstrate these issues in the hope that the queue can be improved.
 
-**Use this app along with the [Electron API Demos](http://electron.atom.io/#get-started) app for API code examples to help you get started.**
+It's fairly simple and could be published as a web app, but I chose to build it in Electron to make use of multiple windows for chat.
 
-A basic Electron application needs just these files:
+## Features
 
-- `package.json` - Points to the app's main file and lists its details and dependencies.
-- `main.js` - Starts the app and creates a browser window to render HTML. This is the app's **main process**.
-- `index.html` - A web page to render. This is the app's **renderer process**.
+* Gets ***all*** the data available from the queue, including who is with which TA, how long they've been there, how long they waited, what their question is, as well as who is currently waiting, how long they've waited, and what their question is.
 
-You can learn more about each of these components within the [Quick Start Guide](http://electron.atom.io/docs/latest/tutorial/quick-start).
+* Allows chat with anyone in the queue or currently in passoff.  Prompts you for a custom name to use when entering chat.  If the person you are chatting with is already in chat with a TA they are not notified that you have entered, and you can then read all messages sent by either party from that point forward.
 
-## To Use
+## Other bugs not demonstrated
 
-To clone and run this repository you'll need [Git](https://git-scm.com) and [Node.js](https://nodejs.org/en/download/) (which comes with [npm](http://npmjs.com)) installed on your computer. From your command line:
+* Unsecured endpoint allows arbitrary removal from the queue.
 
-```bash
-# Clone this repository
-git clone https://github.com/electron/electron-quick-start
-# Go into the repository
-cd electron-quick-start
-# Install dependencies and run the app
-npm install && npm start
-```
-
-Learn more about Electron and its API in the [documentation](http://electron.atom.io/docs/latest).
-
-## Other Example Apps
-
-For more example apps, see the
-[list of boilerplates](http://electron.atom.io/community/#boilerplates)
-created by the awesome electron community.
-
-#### License [CC0 1.0 (Public Domain)](LICENSE.md)
+* Unsecured endpoint allows viewing of any user's chat logs.
