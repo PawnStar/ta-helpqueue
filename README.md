@@ -2,7 +2,7 @@
 
 **I really like our new help queue.  It works much better for passing off.  But there are some problems.**
 
-This was built over the last four or five days to showcase a few issues I found with the help queue.  I made this app to demonstrate these issues in the hope that the queue can be improved.
+This was built over the last four or five days to showcase a few issues I found with the help queue.  Specifically I hoped to help bring these issues to your attention in the hope that the queue can be improved.
 
 It's fairly simple and could be published as a web app, but I chose to build it in Electron to make use of multiple windows for chat.
 
