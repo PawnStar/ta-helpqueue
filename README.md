@@ -16,6 +16,6 @@ It's fairly simple and could be published as a web app, but I chose to fork from
 
 ## Other bugs not demonstrated
 
-* Unsecured endpoint allows arbitrary removal from the queue.
+* Poorly secured endpoint allows arbitrary removal from the queue.
 
-* Unsecured endpoint allows viewing of any user's chat logs.
+* Poorly secured endpoint allows viewing of any user's chat logs.
