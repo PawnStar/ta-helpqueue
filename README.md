@@ -8,6 +8,8 @@ It's fairly simple and could be published as a web app, but I chose to fork from
 
 ## Features
 
+(All features require logging in with a valid NetID)
+
 * Gets ***all*** the data available from the queue, including who is with which TA, how long they've been there, how long they waited, what their question is, as well as who is currently waiting, how long they've waited, and what their question is.
 
 * Allows chat with anyone in the queue or currently in passoff.  Prompts you for a custom name to use when entering chat.  If the person you are chatting with is already in chat with a TA they are not notified that you have entered, and you can then read all messages sent by either party from that point forward.
