@@ -8,7 +8,7 @@ It's fairly simple and could be published as a web app, but I chose to fork from
 
 ## Features
 
-(All features require logging in with a valid NetID)
+*(All features require logging in with a valid NetID)*
 
 * Gets ***all*** the data available from the queue, including who is with which TA, how long they've been there, how long they waited, what their question is, as well as who is currently waiting, how long they've waited, and what their question is.
 
