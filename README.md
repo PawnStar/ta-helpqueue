@@ -1,6 +1,6 @@
 # TA Help Queue Security Demo
 
-**I really like our new help queue.  It works much better for passing off.  But there are some problems.**
+**I really like our new help queue.  It works much better for passing off than the list on the whiteboard.  But there are some problems.**
 
 This was built over the last four or five days to showcase a few issues I found with the help queue.  Specifically I hoped to help bring these issues to your attention in the hope that the queue can be improved.
 
