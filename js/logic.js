@@ -123,6 +123,43 @@ $(document).ready(function(){
        window.unmaximize();
      }
   })
+  $('#toolbar-button-chat').click(function(ev){
+    ev.preventDefault();
+    $('<div id="netIDModal"><div id="modal" class="modal fade" tabindex="-1" role="dialog"><div class="modal-dialog" role="document"><div class="modal-content"><div class="modal-header"><button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button><h4 class="modal-title">Enter a netID to talk to</h4></div><div class="modal-body">'
+        + '<form id="netIDForm"><h1>Enter their NetID</h1><p><input type="text" id="netIDInput" class="form-control" placeholder="NetID"></p><p><input type="submit" class="btn btn-primary" id="startChat" text="Start Chat"><p></form>'
+        + '</div></div><!-- /.modal-content --></div><!-- /.modal-dialog --></div><!-- /.modal --></div>').appendTo('body');
+    $('#modal').modal({backdrop: 'static',show: true}).on('hidden.bs.modal', function(e){$('#netIDModal').remove()});
+    $('#netIDForm').submit(function(ev){
+      ev.preventDefault();
+
+      var netID = $('#netIDInput').val();
+      if(netID == ''){
+        alert('NetID cannot be empty')
+        return false;
+      }
+
+      $('#modal').modal('hide');
+
+      if(!remote.chatWindows)
+        remote.chatWindows = {};
+      try{
+        remote.chatWindows[netID].restore()
+      }
+      catch(e){
+        remote.chatWindows[netID] = new remote.BrowserWindow({
+          width: 400,
+          height: 600,
+          frame: false,
+        })
+        remote.chatWindows[netID].loadURL(path.join(__dirname,'chat.html') + '#' + netID);
+        remote.chatWindows[netID].setMenu(null);
+      }
+
+      return false;
+    })
+    return false;
+  })
+
   refreshData(null);
 })
 

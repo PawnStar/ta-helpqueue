@@ -155,8 +155,9 @@ input.form-control{
   right:0px;
 }
 
-
-
+#netIDModal .modal-header, #netIDModal .modal-body, #netIDModal .modal-content{
+  background:#696969;
+}
 
 /*
  Spin
