@@ -30,7 +30,7 @@ html, body{
   color:#c3c3c3;
 }
 
-#toolbar-buttons a#toolbar-button-refresh{
+#toolbar-buttons a#toolbar-button-chat{
   margin-right:15px;
 }
 
@@ -157,6 +157,10 @@ input.form-control{
 
 #netIDModal .modal-header, #netIDModal .modal-body, #netIDModal .modal-content{
   background:#696969;
+}
+
+#netIDModal .modal-body{
+  padding:15px;
 }
 
 /*
